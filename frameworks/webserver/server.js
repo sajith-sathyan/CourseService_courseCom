@@ -1,6 +1,6 @@
 export default function serverConfig(app, mongoose, config) {
   // Connect to MongoDB
-  console.log("config.uri ----->", config.uri);
+  
   mongoose
     .connect(
       "mongodb+srv://sajithsathyandeveloper:Ad9qE5cg2ziTeYBm@cluster0.zcisrml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
